@@ -97,7 +97,7 @@ export default {
     }
 
     .margin-tb{
-        margin: 200px 0;
+        margin: 300px 0;
     }
 
     .overlay-gradient{
