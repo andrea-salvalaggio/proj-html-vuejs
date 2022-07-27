@@ -17,12 +17,15 @@
 
                 <CardProjects/>
 
+                <div class="text-center">
+                    <button class="button button-primary">Read more</button>
+                </div>
+
                 <div class="side-text">
                     <span>17 years of experience helping people for best solutions</span>  
                 </div>
             </div>
         </div>
-        
     </div>
 </template>
 
@@ -59,7 +62,7 @@ export default {
         margin-left: 25px;
         font-size: 13px;
         position: relative;
-        top: -500px;
+        top: -650px;
         right: -30px;
         }
 
