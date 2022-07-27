@@ -12,10 +12,10 @@
                     </div>
 
                     <CardServices/>
+                </div>
 
-                    <div class="side-text">
-                        <span>17 years of experience helping people for best solutions</span>
-                    </div>
+                <div class="side-text">
+                    <span>17 years of experience helping people for best solutions</span>
                 </div>
             </div>     
         </div>
@@ -90,6 +90,9 @@ export default {
         text-align: center;
         margin-left: 25px;
         font-size: 13px;
+        position: relative;
+        top: -450px;
+        right: -30px;
     }
 
     .margin-tb{
