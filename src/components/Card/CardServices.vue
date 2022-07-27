@@ -1,24 +1,9 @@
 <template>
     <div class="d-flex flex-wrap">
-        <div class="card-container">
-            icon
-            <h5>Speed Optimization</h5>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia Separated...</p>
-        </div>
-        <div class="card-container">
-            icon
-            <h5>Speed Optimization</h5>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia Separated...</p>
-        </div>
-        <div class="card-container">
-            icon
-            <h5>Speed Optimization</h5>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia Separated...</p>
-        </div>
-        <div class="card-container">
-            icon
-            <h5>Speed Optimization</h5>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia Separated...</p>
+        <div v-for="(card, index) in cards" :key="index" class="card-container">
+            <img :src="card.img" :alt="card.title">
+            <h5> {{ card.title }} </h5>
+            <p> {{ card.text }} </p>
         </div>
     </div>
 </template>
@@ -30,8 +15,23 @@ export default {
         return{
             cards: [
                 {
-                    icon: "",
+                    img: require("../../assets/img/speed-icon.svg"),
                     title: "Speed Optimization",
+                    text: "Far far away, behind the word mountains, far from the countries Vokalia Separated...",
+                },
+                {
+                    img: require("../../assets/img/cloud-icon.svg"),
+                    title: "Cloud Solutions",
+                    text: "Far far away, behind the word mountains, far from the countries Vokalia Separated...",
+                },
+                {
+                    img: require("../../assets/img/tablet-icon.svg"),
+                    title: "Website Design",
+                    text: "Far far away, behind the word mountains, far from the countries Vokalia Separated...",
+                },
+                {
+                    img: require("../../assets/img/alarm-icon.svg"),
+                    title: "Online Marketing",
                     text: "Far far away, behind the word mountains, far from the countries Vokalia Separated...",
                 },
             ],
@@ -47,17 +47,20 @@ export default {
         width: calc((100% / 2) - 30px);
         background-color: #ffff;
         border-radius: 10px;
-        padding: 30px;
+        padding: 40px;
         margin: 15px;
         box-shadow: 0 0 50px rgba(#0000, $alpha: 0.1);
 
         h5{
+            font-size: 25px;
+            letter-spacing: -1px;
             margin: 20px 0;
         }
 
         p{
-            font-size: 12px;
+            font-size: 13px;
             color: $tertiaryColorText;
+            margin: 0;
         }
     }
 
