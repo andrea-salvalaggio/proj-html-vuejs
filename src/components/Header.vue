@@ -17,6 +17,7 @@
                 </div>
             </div>
         </div>
+
         <div class="bg-white">
             <div class="container">
                 <div class="row">
@@ -104,7 +105,7 @@ export default {
 
         li{
             display: inline-block;
-            padding: 0 20px;
+            padding: 0 15px;
         }
 
         a{
@@ -112,6 +113,10 @@ export default {
             color: black;
             text-transform: uppercase;
             text-decoration: none;
+
+            &:hover{
+                font-weight: 600;
+            }
         }
     }
 
@@ -127,7 +132,10 @@ export default {
 
     .button-primary{
         background: linear-gradient(90deg, $secondaryColorBrand, $tertiaryColorBrand);
-        box-shadow: 0 5px 30px rgba($primaryColorBrand, $alpha: 0.4);
+
+        &:hover{
+            box-shadow: 0 8px 20px rgba($primaryColorBrand, $alpha: 0.4);
+        }
     }
 
 </style>
