@@ -9,9 +9,9 @@
                     </div>
                     <button class="button button-primary mt-5">View all</button>
                 </div>
-                <div>
-                    <CardServices/>
-                </div>
+
+                <CardServices/>
+                
                 <div class="side-text">
                     <span>17 years of experience helping people for best solutions</span>
                 </div>

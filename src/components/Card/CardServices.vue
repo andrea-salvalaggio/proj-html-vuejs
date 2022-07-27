@@ -62,6 +62,24 @@ export default {
             color: $tertiaryColorText;
             margin: 0;
         }
+
+        &:hover{
+            background: linear-gradient(-120deg, $secondaryColorBrand, $tertiaryColorBrand);
+            box-shadow: 0 0px 50px rgba($primaryColorBrand, $alpha: 0.5);
+            cursor: pointer;
+
+            h5{
+                color:white;
+            }
+
+            p{
+                color:white;
+            }
+
+            img{
+                filter: contrast(100%) brightness(300%);
+            }
+        }
     }
 
 </style>
