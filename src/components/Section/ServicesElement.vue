@@ -1,22 +1,24 @@
 <template>
-    <div class="container margin-tb">
-        <div class="row">
-            <div class="col-12 d-flex">
-                <div class="services-container">
-                    <h1 class="mb-5">We Are Here To Make Your <span>Website</span> Look More <span>Elegant</span> And Stylish!</h1>
-                    <div class="line-small line-gradient rounded-pill">
-                        <div class="line-big line-gradient rounded-pill"></div>
+    <div class="bg-white">
+        <div class="container margin-tb">
+            <div class="row">
+                <div class="col-12 d-flex">
+                    <div class="services-container">
+                        <h1 class="mb-5">We Are Here To Make Your <span>Website</span> Look More <span>Elegant</span> And Stylish!</h1>
+                        <div class="line-small line-gradient rounded-pill">
+                            <div class="line-big line-gradient rounded-pill"></div>
+                        </div>
+                        <button class="button button-primary mt-5">View all</button>
                     </div>
-                    <button class="button button-primary mt-5">View all</button>
-                </div>
 
-                <CardServices/>
-                
-                <div class="side-text">
-                    <span>17 years of experience helping people for best solutions</span>
+                    <CardServices/>
+
+                    <div class="side-text">
+                        <span>17 years of experience helping people for best solutions</span>
+                    </div>
                 </div>
-            </div>
-        </div>     
+            </div>     
+        </div>
     </div>
 </template>
 

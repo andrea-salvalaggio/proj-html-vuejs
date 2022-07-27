@@ -1,16 +1,19 @@
 <template>
-    <div class="bg-white">
+    <div>
       <ServicesElement/>
+      <MissionsElement/>
     </div>
 </template>
 
 <script>
 import ServicesElement from './Section/ServicesElement.vue';
+import MissionsElement from './Section/MissionsElement.vue';
 
 export default {
 
   components: {
         ServicesElement,
+        MissionsElement,
     },
 
 }
