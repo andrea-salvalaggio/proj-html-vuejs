@@ -10,6 +10,7 @@
             <button class="button-secondary">Read more</button>
             <div class="social-info">facebook &nbsp-&nbsp instagram &nbsp-&nbsp youtube &nbsp-&nbsp twitter</div>
         </div>
+        
         <div class="col-7">
             <div class="hero-bg">
                 <img src="../../assets/img/Group-35-2x.png" alt="Business man at work">
@@ -47,10 +48,10 @@ export default {
         margin-left: 200px;
 
         h1{
-            font-size: 90px;
+            font-size: 80px;
             font-weight: 800;
             letter-spacing: -7px;
-            line-height: 100px;
+            line-height: 85px;
             margin: 20px 0;
 
             span{
