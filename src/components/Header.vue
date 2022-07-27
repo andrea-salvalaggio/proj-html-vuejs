@@ -40,11 +40,20 @@
                 </div>
             </div>
         </div>
+
+        <HeroElement/>
+
     </header>
 </template>
 
 <script>
+import HeroElement from './Hero/HeroElement.vue';
+
 export default {
+
+    components: {
+        HeroElement,
+    },
 
     data: function(){
         return{
@@ -134,7 +143,7 @@ export default {
         background: linear-gradient(90deg, $secondaryColorBrand, $tertiaryColorBrand);
 
         &:hover{
-            box-shadow: 0 8px 20px rgba($primaryColorBrand, $alpha: 0.4);
+            box-shadow: 0 8px 20px rgba($primaryColorBrand, $alpha: 0.3);
         }
     }
 
