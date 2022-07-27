@@ -1,17 +1,41 @@
 <template>
-    <header class="primary-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 d-flex justify-content-between p-1">
-                    <div>
-                        <img class="icon-topbar" src="../assets/img/phone-icon-white.png" alt="Phone Icon">
-                        <span class="phone-info">(001)88451234 &nbsp &nbsp 88455438</span>
+    <header>
+        <div class="primary-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between p-1">
+                        <div class="icon-topbar">
+                            <img src="../assets/img/phone-icon-white.png" alt="Phone Icon">
+                            <span>(001)88451234 &nbsp &nbsp 88455438</span>
+                        </div>
+                        <div class="icon-topbar">
+                            <img src="../assets/img/fb-icon-white.png" alt="Facebook Icon">
+                            <img src="../assets/img/twitter-icon-white.png" alt="Twitter Icon">
+                            <img src="../assets/img/pinterest-icon-white.png" alt="Pinterest Icon">
+                        </div>                
                     </div>
-                    <div>
-                        <img class="icon-topbar" src="../assets/img/fb-icon-white.png" alt="Facebook Icon">
-                        <img class="icon-topbar" src="../assets/img/twitter-icon-white.png" alt="Twitter Icon">
-                        <img class="icon-topbar" src="../assets/img/pinterest-icon-white.png" alt="Pinterest Icon">
-                    </div>                
+                </div>
+            </div>
+        </div>
+        <div class="bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="d-flex justify-content-between align-items-center py-4">
+                            <div>
+                                <img class="w-75" src="../assets/img/cropped-Group-39-2x.png" alt="Company Logo">
+                            </div>
+                            <div>
+                                <ul>
+                                    <li v-for="(link, index) in links" :key="index"><a :href="link.url"> {{ link.text }} </a></li>
+                                </ul>
+                            </div>
+                            <div class="icon-topbar">
+                                <button class="button button-primary me-3">Purchase</button>
+                                <img src="../assets/img/search-icon-color.png" alt="Search Icon">
+                            </div>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
@@ -21,25 +45,89 @@
 <script>
 export default {
 
+    data: function(){
+        return{
+            links:[
+                {
+                    text: "Home",
+                    url: "#",
+                },
+                {
+                    text: "About",
+                    url: "#",
+                },
+                {
+                    text: "Services",
+                    url: "#",
+                },
+                {
+                    text: "Showcase",
+                    url: "#",
+                },
+                {
+                    text: "Blog",
+                    url: "#",
+                },
+                {
+                    text: "Contact",
+                    url: "#",
+                },
+            ],
+        }
+    }
 }
 </script>
 
 <style lang="scss" scoped>
 @import "../styles/variables.scss";
 
-    // Topbar
     .primary-bg{
         background-color: $primaryColorBg;
     }
 
     .icon-topbar{
-        width: 15px;
-        margin: 0 10px;
+        img{
+            width: 15px;
+            margin: 0 10px;
+        }
+        
+        span{
+            font-size: 12px;
+            color: #ffff;
+        }
     }
 
-    .phone-info{
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li{
+            display: inline-block;
+            padding: 0 20px;
+        }
+
+        a{
+            font-size: 12px;
+            color: black;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    }
+
+    .button{
+        width: 150px;
+        height: 50px;
         font-size: 12px;
-        color: #ffff;
+        color:white;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 50px;
+    }
+
+    .button-primary{
+        background: linear-gradient(90deg, $secondaryColorBrand, $tertiaryColorBrand);
+        box-shadow: 0 5px 30px rgba($primaryColorBrand, $alpha: 0.4);
     }
 
 </style>
