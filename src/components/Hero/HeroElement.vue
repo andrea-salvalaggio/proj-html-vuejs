@@ -103,7 +103,7 @@ export default {
         background: linear-gradient(90deg, $primaryColorBg, $secondaryColorBg);
 
         &:hover{
-            box-shadow: 0 8px 20px rgba($secondaryColorBg, $alpha: 0.2);
+            box-shadow: 0 8px 20px rgba($secondaryColorBg, $alpha: 0.3);
         }
     }
 

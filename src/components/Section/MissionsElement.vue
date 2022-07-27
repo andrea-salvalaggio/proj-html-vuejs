@@ -3,7 +3,9 @@
         <div class="d-flex align-items-center">
             <div class="d-flex">
                 <div class="img-container">
-                    <img src="../../assets/img/busy-architect-PYVKWM4-1024x872.jpg" alt="Architect at work">
+                    <div class="overlay-gradient">
+                        <img src="../../assets/img/busy-architect-PYVKWM4-1024x872.jpg" alt="Architect at work">
+                    </div>
                     <img src="../../assets/img/businesswoman-analysing-document-P8WSNMC-1024x820.jpg" alt="Business woman at work">
                 </div>
             </div>
@@ -11,12 +13,12 @@
                 <div class="row">
                     <div class="col-10">
                         <div class="services-container">
-                            <h1 class="mb-5">learn more <br> about our <br><span>mission</span></h1>
+                            <h1 class="mb-4">learn more <br> about our <br><span>mission</span></h1>
                             <div class="line-small line-gradient rounded-pill">
                                 <div class="line-big line-gradient rounded-pill"></div>
                             </div>
                             <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum reiciendis alias totam consequatur magni minus officiis vero distinctio, quos molestias iste, quidem nihil porro maiores expedita, placeat praesentium ipsam ad.</p>
-                            <button class="button button-primary mt-5">View all</button>
+                            <button class="button button-primary mt-5">Read more</button>
                         </div>
                     </div>
                 </div>
@@ -83,7 +85,6 @@ export default {
             height: 100%;
             object-fit: cover;
             border-radius: 0 30px 0 0;
-            background: linear-gradient(90deg, $secondaryColorBrand, $tertiaryColorBrand);
         }
 
         img:nth-child(2){
@@ -97,6 +98,20 @@ export default {
 
     .margin-tb{
         margin: 200px 0;
+    }
+
+    .overlay-gradient{
+        position: relative;
+
+        &::after{
+            content: '';
+            position: absolute;
+            left: 0; top: 0;
+            width: 100%; height: 100%;
+            border-radius: 0 30px 0 0;
+            background: linear-gradient(-320deg, $secondaryColorBrand, $tertiaryColorBrand);
+            opacity: 0.9;
+        }
     }
 
 </style>
