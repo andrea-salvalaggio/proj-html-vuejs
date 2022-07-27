@@ -133,6 +133,7 @@ export default {
         width: 150px;
         height: 50px;
         font-size: 12px;
+        font-weight: 600;
         color:white;
         text-transform: uppercase;
         border: none;
