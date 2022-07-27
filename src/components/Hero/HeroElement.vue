@@ -68,6 +68,7 @@ export default {
 
         p{
             margin-top: 40px;
+            color: $secondaryColorText;
         }
 
         button{

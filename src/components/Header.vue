@@ -4,11 +4,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-between p-1">
-                        <div class="icon-topbar">
+                        <div class="icon-container">
                             <img src="../assets/img/phone-icon-white.png" alt="Phone Icon">
                             <span>(001)88451234 &nbsp &nbsp 88455438</span>
                         </div>
-                        <div class="icon-topbar">
+                        <div class="icon-container">
                             <img src="../assets/img/fb-icon-white.png" alt="Facebook Icon">
                             <img src="../assets/img/twitter-icon-white.png" alt="Twitter Icon">
                             <img src="../assets/img/pinterest-icon-white.png" alt="Pinterest Icon">
@@ -31,7 +31,7 @@
                                     <li v-for="(link, index) in links" :key="index"><a :href="link.url"> {{ link.text }} </a></li>
                                 </ul>
                             </div>
-                            <div class="icon-topbar">
+                            <div class="icon-container">
                                 <button class="button button-primary me-3">Purchase</button>
                                 <img src="../assets/img/search-icon-color.png" alt="Search Icon">
                             </div>
@@ -95,7 +95,7 @@ export default {
         background-color: $primaryColorBg;
     }
 
-    .icon-topbar{
+    .icon-container{
         img{
             width: 15px;
             margin: 0 10px;

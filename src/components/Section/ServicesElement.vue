@@ -3,7 +3,6 @@
         <div class="row">
             <div class="col-12 d-flex">
                 <div>
-                    SINISTRA
                     <h1>We Are Here To Make Your Website Look More Elegant And Stylish!</h1>
                     <div class="line-small line-gradient rounded-pill">
                         <div class="line-big line-gradient rounded-pill"></div>
