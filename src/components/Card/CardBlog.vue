@@ -1,5 +1,5 @@
 <template>
-    <div class="col-12 d-flex mt-5"> 
+    <div class="col-12 d-flex mt-5 position-relative"> 
         <div v-for="(image, index) in images" :key="index" class="blog-container d-flex justify-content-center">
             <div class="image-container">
                 <img :src="image.url" :alt="image.name">
