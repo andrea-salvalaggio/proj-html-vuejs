@@ -4,6 +4,7 @@
       <MissionsElement/>
       <ProjectsElement/>
       <DataElement/>
+      <ChatElement/>
     </div>
 </template>
 
@@ -12,6 +13,7 @@ import ServicesElement from './Section/ServicesElement.vue';
 import MissionsElement from './Section/MissionsElement.vue';
 import ProjectsElement from './Section/ProjectsElement.vue';
 import DataElement from './Section/DataElement.vue';
+import ChatElement from './Section/ChatElement.vue';
 
 export default {
 
@@ -20,6 +22,7 @@ export default {
         MissionsElement,
         ProjectsElement,
         DataElement,
+        ChatElement,
     },
 
 }
