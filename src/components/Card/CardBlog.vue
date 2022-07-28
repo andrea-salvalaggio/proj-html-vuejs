@@ -64,6 +64,7 @@ export default {
     .image-container{
         width: 500px;
         height: 350px;
+        border-radius: 8px;
         box-shadow: 0 0 40px rgba($secondaryColorBg, $alpha: 0.2);
 
         img{
