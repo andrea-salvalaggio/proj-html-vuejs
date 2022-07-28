@@ -6,6 +6,7 @@
       <DataElement/>
       <ChatElement/>
       <QuoteElement/>
+      <BlogElement/>
     </div>
 </template>
 
@@ -16,6 +17,7 @@ import ProjectsElement from './Section/ProjectsElement.vue';
 import DataElement from './Section/DataElement.vue';
 import ChatElement from './Section/ChatElement.vue';
 import QuoteElement from './Section/QuoteElement.vue';
+import BlogElement from './Section/BlogElement.vue';
 
 export default {
 
@@ -26,6 +28,7 @@ export default {
         DataElement,
         ChatElement,
         QuoteElement,
+        BlogElement,
     },
 
 }
