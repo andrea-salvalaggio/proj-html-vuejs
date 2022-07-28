@@ -4,7 +4,7 @@
       <MissionsElement/>
       <ProjectsElement/>
       <DataElement/>
-      <ChatElement/>
+      <PriceElement/>
       <QuoteElement/>
       <BlogElement/>
       <AskElement/>
@@ -17,7 +17,7 @@ import ServicesElement from './Section/ServicesElement.vue';
 import MissionsElement from './Section/MissionsElement.vue';
 import ProjectsElement from './Section/ProjectsElement.vue';
 import DataElement from './Section/DataElement.vue';
-import ChatElement from './Section/ChatElement.vue';
+import PriceElement from './Section/PriceElement.vue';
 import QuoteElement from './Section/QuoteElement.vue';
 import BlogElement from './Section/BlogElement.vue';
 import AskElement from './Section/AskElement.vue';
@@ -30,7 +30,7 @@ export default {
         MissionsElement,
         ProjectsElement,
         DataElement,
-        ChatElement,
+        PriceElement,
         QuoteElement,
         BlogElement,
         AskElement,
@@ -40,7 +40,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-@import "../styles/variables.scss";
+<style>
 
 </style>

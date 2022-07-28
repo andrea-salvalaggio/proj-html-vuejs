@@ -1,5 +1,7 @@
 <template>
     <div class="tertiary-bg d-flex align-items-center">
+
+        <!-- Info Hero banner -->
         <div class="container-hero">
             <h6>17 years of experience</h6>
             <h1>Focus on Your <span>Business</span></h1>
@@ -11,6 +13,7 @@
             <div class="social-info">facebook &nbsp-&nbsp instagram &nbsp-&nbsp youtube &nbsp-&nbsp twitter</div>
         </div>
         
+        <!-- Left image -->
         <div class="col-7">
             <div class="hero-bg">
                 <img src="../../assets/img/Group-35-2x.png" alt="Business man at work">

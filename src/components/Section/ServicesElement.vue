@@ -3,6 +3,8 @@
         <div class="container margin-tb">
             <div class="row">
                 <div class="col-12 d-flex">
+
+                    <!-- Main info -->
                     <div class="services-container">
                         <h1 class="mb-5">We Are Here To Make Your <span>Website</span> Look More <span>Elegant</span> And Stylish!</h1>
                         <div class="line-small line-gradient rounded-pill">
@@ -11,8 +13,10 @@
                         <button class="button button-primary mt-5">View all</button>
                     </div>
 
+                    <!-- Components of services -->
                     <CardServices/>
 
+                    <!-- text right -->
                     <div class="side-text">
                         <span>17 years of experience helping people for best solutions</span>
                     </div>

@@ -2,6 +2,8 @@
     <div>
         <div class="container">
             <div class="row">
+
+                <!-- Ask container left -->
                 <div class="col-6">
                     <div class="ask-container secondary-gradient d-flex flex-column align-items-center">
                         <span>Are You Ready?</span>
@@ -12,6 +14,8 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Ask container right -->
                 <div class="col-6">
                     <div class="ask-container primary-gradient d-flex flex-column align-items-center">
                         <span>What Are You Waiting For?</span>

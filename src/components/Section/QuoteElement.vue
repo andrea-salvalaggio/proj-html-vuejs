@@ -4,11 +4,17 @@
             <div class="row">
                 <div class="col-12">
                     <div class="quote-container">
+
+                        <!-- Quote text -->
                         <img class="quote-icon" src="../../assets/img/quote-icon.svg" alt="Quote Icon">
                         <p class="text-center mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod fugit ex illum sequi qui deleniti quidem sunt quisquam repellat, quis enim! Laborum totam voluptatibus obcaecati dolores commodi? Molestias, sint cum?</p>
+
+                        <!-- Full image bg -->
                         <div class="img-container mt-5">
                             <img src="../../assets/img/businesswoman-analysing-document-P8WSNMC-1024x820.jpg" alt="">
                         </div>
+
+                        <!-- Info client -->
                         <h6>Lissa Durbin</h6>
                         <div class="type">Client</div>
                     </div>

@@ -3,14 +3,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 d-flex flex-column align-items-center">
+
+                    <!-- Blog title -->
                     <h1 class="mb-5">Latest News & Our <span>Blog</span></h1>
                     <div class="line-small line-gradient rounded-pill">
                         <div class="line-big line-gradient rounded-pill"></div>
                     </div>
                 </div>
-                
+
+                <!-- Components of blog card -->
                 <CardBlog/>
 
+                <!-- Button -->
                 <div class="text-center margin-t">
                     <button class="button button-secondary">View all post</button>
                 </div>

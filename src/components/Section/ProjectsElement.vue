@@ -15,12 +15,15 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet corporis, dolorem quas doloremque unde numquam voluptas deserunt! Quod similique corporis ut in molestias delectus, praesentium consequuntur impedit doloribus vero soluta.</p>
                 </div>
 
+                <!-- Components of projects -->
                 <CardProjects/>
 
+                <!-- Button element -->
                 <div class="text-center">
                     <button class="button button-primary">Read more</button>
                 </div>
 
+                <!-- Vertical text -->
                 <div class="side-text">
                     <span>17 years of experience helping people for best solutions</span>  
                 </div>

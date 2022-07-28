@@ -2,6 +2,8 @@
     <div class="tertiary-bg">
         <div class="d-flex align-items-center">
             <div class="d-flex">
+
+                <!-- Overlaping images -->
                 <div class="img-container">
                     <div class="overlay-gradient">
                         <img src="../../assets/img/busy-architect-PYVKWM4-1024x872.jpg" alt="Architect at work">
@@ -9,6 +11,8 @@
                     <img src="../../assets/img/businesswoman-analysing-document-P8WSNMC-1024x820.jpg" alt="Business woman at work">
                 </div>
             </div>
+
+            <!-- Main text -->
             <div class="container margin-tb">
                 <div class="row">
                     <div class="col-10">

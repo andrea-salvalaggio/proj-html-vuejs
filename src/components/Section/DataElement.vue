@@ -3,11 +3,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 d-flex justify-content-start margin-tb">
+
+                    <!-- Image box gradient -->
                     <div class="data-container">
                         <div class="overlay-gradient">
                             <img src="../../assets/img/person-with-long-curly-hair-PZ99QM2-2x.jpg" alt="Girl in the studio">
                         </div>
                     </div>
+
+                    <!-- Text box -->
                     <div class="info-container d-flex flex-column justify-content-center margin-tb">
                         <h1 class="mb-4">We <span>Love</span> What<br>We Do</h1>
                         <div class="line-small line-gradient rounded-pill">

@@ -1,6 +1,9 @@
 <template>
     <div class="tertiary-bg padding-t padding-b">
+
+        <!-- Components of images partners -->
         <CardPartner/>
+        
     </div>
 </template>
 
