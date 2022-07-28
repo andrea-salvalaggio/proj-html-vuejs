@@ -1,7 +1,7 @@
 <template>
     <div class="tertiary-bg">
         <div class="container padding-tb">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-4">
                     <h1 class="mb-4">With <span>Live Chat 24/7</span> Support</h1>
                     <div class="line-small line-gradient rounded-pill">
@@ -9,15 +9,25 @@
                     </div>
                     <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum reiciendis alias totam consequatur magni minus officiis vero distinctio, quos molestias iste, quidem nihil porro maiores expedita.</p>
                 </div>
+                <div class="col-8">
+                    <CardChat/>
+                </div>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+import CardChat from '../Card/CardChat.vue';
+
 export default {
 
+    components: {
+        CardChat,
+    },
+
 }
+
 </script>
 
 <style lang="scss" scoped>
