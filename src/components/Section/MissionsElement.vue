@@ -106,8 +106,10 @@ export default {
         &::after{
             content: '';
             position: absolute;
-            left: 0; top: 0;
-            width: 100%; height: 100%;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
             border-radius: 0 30px 0 0;
             background: linear-gradient(-320deg, $secondaryColorBrand, $tertiaryColorBrand);
             opacity: 0.9;

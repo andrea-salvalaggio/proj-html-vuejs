@@ -49,6 +49,10 @@ export default {
             letter-spacing: -3px;
             line-height: 60px;
             margin: 30px 0;
+
+            span{
+                color: $tertiaryColorBrand;
+            }
         }
 
         .margin-tb{
