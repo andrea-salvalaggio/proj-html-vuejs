@@ -1,14 +1,9 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="col-12 margin-t margin-b">
-                <div class="partner-container d-flex justify-content-between">
-                    <img src="../../assets/img/client-1-2x.png" alt="">
-                    <img src="../../assets/img/client-1-2x.png" alt="">
-                    <img src="../../assets/img/client-1-2x.png" alt="">
-                    <img src="../../assets/img/client-1-2x.png" alt="">
-                    <img src="../../assets/img/client-1-2x.png" alt="">
-                    <img src="../../assets/img/client-1-2x.png" alt="">
+            <div class="col-12 d-flex justify-content-between margin-t margin-b">
+                <div v-for="(partner, index) in partners" :key="index" class="partner-container">
+                    <img :src="partner.url" :alt="partner.title">
                 </div>
             </div>
         </div>
@@ -30,6 +25,22 @@ export default {
                     url: require('../../assets/img/client-9-2x.png'),
                     title: 'FastLane',
                 },
+                {
+                    url: require('../../assets/img/client-7-2x.png'),
+                    title: 'Ron Jones',
+                },
+                {
+                    url: require('../../assets/img/client-3-2x.png'),
+                    title: 'Chippy',
+                },
+                {
+                    url: require('../../assets/img/client-4-2x.png'),
+                    title: 'Bulls Eye',
+                },
+                {
+                    url: require('../../assets/img/client-5-2x.png'),
+                    title: 'Mighty Furnitures',
+                },
             ],
         }
     }
@@ -40,8 +51,15 @@ export default {
 <style lang="scss" scoped>
 @import "../../styles/variables.scss";
 
-    // .margin-b{
-    //     margin-bottom: 100px 0;
-    // }
+    .partner-container{
+        width: 120px;
+        height: 60px;
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
 
 </style>
