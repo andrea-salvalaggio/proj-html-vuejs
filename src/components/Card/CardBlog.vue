@@ -4,20 +4,11 @@
             <div class="image-container">
                 <img :src="image.url" :alt="image.name">
             </div>
-        </div>
-        <div v-for="(blog, index) in blogs" :key="index" class="text-container d-flex flex-column justify-content-center p-4">
+            <div v-for="(blog, index) in blogs" :key="index" class="text-container d-flex flex-column justify-content-center p-4">
                 <span> {{ blog.date }} </span>
                 <h4 class="m-0"> {{ blog.title }} </h4>
             </div>
-        <!-- <div class="blog-container d-flex justify-content-center">
-            <div class="image-container">
-                <img src="../../assets/img/serious-businesswoman-with-documents-talking-on-P9Q6LX6-1024.jpg" alt="Woman at the office">
-            </div>
-            <div class="text-container d-flex flex-column justify-content-center p-4">
-                <span>May 24, 2018 &#183; by Alex</span>
-                <h4 class="m-0">Marketing Ideas</h4>
-            </div>
-        </div> -->
+        </div>
     </div>
 </template>
 
