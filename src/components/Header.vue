@@ -1,5 +1,7 @@
 <template>
     <header>
+
+        <!-- Contact Topbar -->
         <div class="primary-bg">
             <div class="container">
                 <div class="row">
@@ -18,6 +20,7 @@
             </div>
         </div>
 
+        <!-- Navigation -->
         <div class="bg-white">
             <div class="container">
                 <div class="row">
