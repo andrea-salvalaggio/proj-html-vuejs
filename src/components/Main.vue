@@ -8,6 +8,7 @@
       <QuoteElement/>
       <BlogElement/>
       <AskElement/>
+      <PartnersElement/>
     </div>
 </template>
 
@@ -20,6 +21,7 @@ import ChatElement from './Section/ChatElement.vue';
 import QuoteElement from './Section/QuoteElement.vue';
 import BlogElement from './Section/BlogElement.vue';
 import AskElement from './Section/AskElement.vue';
+import PartnersElement from './Section/PartnersElement.vue';
 
 export default {
 
@@ -32,6 +34,7 @@ export default {
         QuoteElement,
         BlogElement,
         AskElement,
+        PartnersElement,
     },
 
 }
